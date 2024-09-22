@@ -34,5 +34,5 @@ def generate_chess_gif(moves, output_file="chess_animation.gif"):
     images[0].save(output_file, save_all=True, append_images=images[1:], loop=0, duration=1000)
 
 # Example usage
-moves = "e4 e5 Nf3 Nc6 Bb5"
+moves = "e4 e5"
 generate_chess_gif(moves)
